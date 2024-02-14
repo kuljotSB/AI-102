@@ -1,0 +1,118 @@
+ "@odata.type": "#Microsoft.Skills.Custom.AmlSkill",
+ "name": "AMLenricher",
+ "description": "AML studio enrichment example",
+ "context": "/document",
+ "uri": "PASTE YOUR AML ENDPOINT HERE",
+ "key": "PASTE YOUR PRIMARY KEY HERE",
+ "resourceId": null,
+ "region": null,
+ "timeout": "PT30S",
+ "degreeOfParallelism": 1,
+ "inputs": [
+   {
+     "name": "symboling",
+     "source": "/document/symboling"
+   },
+   {
+     "name": "make",
+     "source": "/document/make"
+   },
+   {
+     "name": "fuel-type",
+     "source": "/document/fueltype"
+   },
+   {
+     "name": "aspiration",
+     "source": "/document/aspiration"
+   },
+   {
+     "name": "num-of-doors",
+     "source": "/document/numdoors"
+   },
+   {
+     "name": "body-style",
+     "source": "/document/bodystyle"
+   },
+   {
+     "name": "drive-wheels",
+     "source": "/document/drivewheels"
+   },
+   {
+     "name": "engine-location",
+     "source": "/document/enginelocation"
+   },
+   {
+     "name": "wheel-base",
+     "source": "/document/wheelbase"
+   },
+   {
+     "name": "length",
+     "source": "/document/length"
+   },
+   {
+     "name": "width",
+     "source": "/document/width"
+   },
+   {
+     "name": "height",
+     "source": "/document/height"
+   },
+   {
+     "name": "curb-weight",
+     "source": "/document/curbweight"
+   },
+   {
+     "name": "engine-type",
+     "source": "/document/enginetype"
+   },
+   {
+     "name": "num-of-cylinders",
+     "source": "/document/numcylinders"
+   },
+   {
+     "name": "engine-size",
+     "source": "/document/enginesize"
+   },
+   {
+     "name": "fuel-system",
+     "source": "/document/fuelsystem"
+   },
+   {
+     "name": "bore",
+     "source": "/document/bore"
+   },
+   {
+     "name": "stroke",
+     "source": "/document/stroke"
+   },
+   {
+     "name": "compression-ratio",
+     "source": "/document/compressionratio"
+   },
+   {
+     "name": "horsepower",
+     "source": "/document/horsepower"
+   },
+   {
+     "name": "peak-rpm",
+     "source": "/document/peakrpm"
+   },
+   {
+     "name": "city-mpg",
+     "source": "/document/citympg"
+   },
+   {
+     "name": "highway-mpg",
+     "source": "/document/highwaympg"
+   },
+   {
+     "name": "price",
+     "source": "/document/price"
+   }
+ ],
+ "outputs": [
+   {
+     "name": "predicted_price",
+     "targetName": "predicted_price"
+   }
+ ]  
