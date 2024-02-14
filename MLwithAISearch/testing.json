@@ -1,1 +1,28 @@
 
+ {
+     "symboling": 2,
+     "make": "mitsubishi",
+     "fuel-type": "gas",
+     "aspiration": "std",
+     "num-of-doors": "two",
+     "body-style": "hatchback",
+     "drive-wheels": "fwd",
+     "engine-location": "front",
+     "wheel-base": 93.7,
+     "length": 157.3,
+     "width": 64.4,
+     "height": 50.8,
+     "curb-weight": 1944,
+     "engine-type": "ohc",
+     "num-of-cylinders": "four",
+     "engine-size": 92,
+     "fuel-system": "2bbl",
+     "bore": 2.97,
+     "stroke": 3.23,
+     "compression-ratio": 9.4,
+     "horsepower": 68.0,
+     "peak-rpm": 5500.0,
+     "city-mpg": 31,
+     "highway-mpg": 38,
+     "price": 0.0
+ }
